@@ -1,0 +1,21 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Wilde
+    given-names: Joe A.
+    orcid: https://orcid.org/0000-0001-9189-1811
+  - family-names: Addy
+    given-names: John
+  - family-names: Morrison
+    given-names: Catriona
+    orcid: https://orcid.org/0000-0002-4293-2717
+  - family-names: Miller
+    given-names: David L.
+    orcid: https://orcid.org/0000-0002-9640-6755
+  
+title: "Evaluating the added benefits of data integration using Bayesian model comparison tools."
+version: 1.0.0
+identifiers:
+  - type: url
+    value: https://github.com/JoeAWilde/ds-toolbox-notebook-dataintegration
+date-released: 2026-09-30
