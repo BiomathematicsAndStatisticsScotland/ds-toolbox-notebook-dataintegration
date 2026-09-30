@@ -1,0 +1,29 @@
+model {
+  # Priors
+  for(i in 1:n_years) {
+    logit(psi[i]) <- alpha + beta * i
+  }
+  alpha ~ dnorm(0, 1.77)
+  beta ~ dnorm(0, 6.25)
+
+  for(i in 1:n_datasets) {
+    logit(p_link[i]) <- p[i]
+    p[i] ~ dnorm(0, 0.6944) 
+  }
+  
+  # Likelihood
+  for(i in 1:n_years){
+    for(s in 1:n_sites){
+      # State model
+      z[i, s] ~ dbern(psi[i]) #probability of occupancy
+      for(d in 1:n_datasets){
+        for(v in 1:n_visits){
+          # Observation model
+          p_obs[d, i, s, v] <- p_link[d] * z[i, s]
+          y[d, i, s, v] ~ dbern(p_obs[d, i, s, v]) #probability of detection and occ
+          log_lik[d, i, s, v] <- logdensity.bern(y[d, i, s, v], p_obs[d, i, s, v])
+        }
+      }
+    }
+  }
+}

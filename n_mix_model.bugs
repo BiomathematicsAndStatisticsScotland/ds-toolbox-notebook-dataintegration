@@ -1,0 +1,26 @@
+model {
+  #Priors
+  for(i in 1:n_years) {
+      log(lambda[i]) <- alpha + beta * i
+  }
+  alpha ~ dnorm(0, 1)
+  beta ~ dnorm(0, 1)
+
+  logit(p_det) <- p
+  p ~ dnorm(0, 1)
+
+  #Likelihood
+  for(i in 1:n_years){
+    for(s in 1:n_sites){
+    # State model
+    z[i, s] ~ dpois(lambda[i]) #latent population size
+      for(d in 1:n_datasets){
+        for(v in 1:n_visits){
+          # Observation model
+          y[d, i, s, v] ~ dbinom(p_det, z[i, s])
+          log_lik[d, i, s, v] <- logdensity.bin(y[d, i, s, v], p_det, z[i, s])
+        }
+      }
+    }
+  }
+}

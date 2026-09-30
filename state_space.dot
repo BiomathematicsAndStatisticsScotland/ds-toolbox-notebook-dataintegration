@@ -1,0 +1,115 @@
+digraph G {
+  graph [
+    nodesep = 1,
+    ranksep = 0.6,
+    overlap = true,
+    splines = false,
+    fixedsize=true,
+    rankdir="LR",
+  ]
+  node [
+    fixedsize = false,
+    fontsize = 24,
+    height = 1,
+    shape = box,
+    style = "filled,color=white",
+    width = 2.2
+  ]
+  edge [
+    arrowhead = "",
+    arrowsize = 0.75,
+    weight = 10,
+    style = "filled,setlinewidth(2)"
+  ]
+
+  subgraph cluster_0 {
+    style="shape=none";
+    lo [
+        style=filled,
+        color=white,
+        label="Observation\nprocess"];
+    //a0 -> b0 -> c0 -> d0;
+    lo -> a0 [penwidth=0,
+              arrowsize = 0,
+              ];
+    a0 -> b0 [penwidth=0,
+              arrowsize = 0,
+              ];
+    b0 -> c0 [penwidth=0,
+              arrowsize = 0,
+              ];
+    c0 -> d0 [penwidth=0,
+              arrowsize = 0,
+              ];
+    c0 [
+      style=filled,
+      color=white
+      label="..."
+    ];
+    a0 [label="Observation\n1"];
+    b0 [label="Observation\n2"];
+    d0 [label="Observation\nT"];
+
+    label = "";
+    penwidth=0;
+  }
+
+  subgraph cluster_1 {
+    ls [
+      style=filled,
+      color=white
+      label = "State\nprocess";
+    ];
+    a1 -> b1 -> c1 -> d1;
+    ls -> a1 [penwidth=0,
+              arrowsize = 0,
+              ];
+    a1 [label="State 1"];
+    b1 [label="State 2"];
+    c1 [
+      style=filled,
+      color=white
+      label="..."
+    ];
+    d1 [label="State T"];
+    label = "";
+    penwidth=0;
+  }
+
+  subgraph cluster_t {
+    lt [
+      style=filled,
+      color=white,
+      label=""
+    ];
+    lt -> t0 [penwidth=0,
+              arrowsize = 0,
+              ];
+    t0 -> t1 -> td -> tT;
+    t0 [label="Time 1",
+        style=filled,
+        color=white,
+    ];
+    t1 [label="Time 2",
+        style=filled,
+        color=white,
+    ];
+    td [
+      style=filled,
+      color=white
+      label="..."
+    ];
+    tT [label="Time T",
+        style=filled,
+        color=white,
+    ];
+    label = "";
+    penwidth=0;
+  }
+
+  a1->a0 [constraint=false];
+  b1->b0 [constraint=false];
+  d1->d0 [constraint=false];
+  lo->ls [constraint=false, arrowhead="none", penwidth = 0];
+  ls->lt [constraint=false, arrowhead="none", penwidth = 0];
+}
