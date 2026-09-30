@@ -1,0 +1,213 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1002pt" height="400pt" viewBox="0.00 0.00 1002.00 400.00">
+<g id="graph0" class="graph" transform="translate(4,396) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-396 998,-396 998,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="cluster_0">
+
+<polygon fill="none" stroke="black" stroke-width="0" points="8,-8 8,-96 986,-96 986,-8 8,-8" style=""/>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_1">
+
+<polygon fill="none" stroke="black" stroke-width="0" points="8,-152 8,-240 986,-240 986,-152 8,-152" style=""/>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_t">
+
+<polygon fill="none" stroke="black" stroke-width="0" points="8,-296 8,-384 986,-384 986,-296 8,-296" style=""/>
+</g>
+<!-- lo -->
+<g id="node1" class="node" pointer-events="visible" data-name="lo">
+
+<polygon fill="white" stroke="white" points="174,-88 16,-88 16,-16 174,-16 174,-88" style=""/>
+<text text-anchor="middle" x="95" y="-59.2" font-family="Times,serif" font-size="24.00" style="">Observation</text>
+<text text-anchor="middle" x="95" y="-30.4" font-family="Times,serif" font-size="24.00" style="">process</text>
+</g>
+<!-- a0 -->
+<g id="node2" class="node" pointer-events="visible" data-name="a0">
+
+<polygon fill="lightgrey" stroke="black" points="375,-88 217,-88 217,-16 375,-16 375,-88" style=""/>
+<text text-anchor="middle" x="296" y="-59.2" font-family="Times,serif" font-size="24.00" style="">Observation</text>
+<text text-anchor="middle" x="296" y="-30.4" font-family="Times,serif" font-size="24.00" style="">1</text>
+</g>
+<!-- lo&#45;&gt;a0 -->
+<g id="edge1" class="edge" data-name="lo-&gt;a0">
+
+<path fill="none" stroke="black" stroke-width="0" d="M174.36,-52C188.18,-52 202.56,-52 216.38,-52" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- ls -->
+<g id="node6" class="node" pointer-events="visible" data-name="ls">
+
+<polygon fill="white" stroke="white" points="174,-232 16,-232 16,-160 174,-160 174,-232" style=""/>
+<text text-anchor="middle" x="95" y="-203.2" font-family="Times,serif" font-size="24.00" style="">State</text>
+<text text-anchor="middle" x="95" y="-174.4" font-family="Times,serif" font-size="24.00" style="">process</text>
+</g>
+<!-- lo&#45;&gt;ls -->
+<g id="edge16" class="edge" data-name="lo-&gt;ls">
+
+<path fill="none" stroke="black" stroke-width="0" d="M95,-88.28C95,-112.13 95,-135.97 95,-159.81" style=""/>
+</g>
+<!-- b0 -->
+<g id="node3" class="node" pointer-events="visible" data-name="b0">
+
+<polygon fill="lightgrey" stroke="black" points="576,-88 418,-88 418,-16 576,-16 576,-88" style=""/>
+<text text-anchor="middle" x="497" y="-59.2" font-family="Times,serif" font-size="24.00" style="">Observation</text>
+<text text-anchor="middle" x="497" y="-30.4" font-family="Times,serif" font-size="24.00" style="">2</text>
+</g>
+<!-- a0&#45;&gt;b0 -->
+<g id="edge2" class="edge" data-name="a0-&gt;b0">
+
+<path fill="none" stroke="black" stroke-width="0" d="M375.36,-52C389.18,-52 403.56,-52 417.38,-52" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- c0 -->
+<g id="node4" class="node" pointer-events="visible" data-name="c0">
+
+<polygon fill="white" stroke="white" points="777,-88 619,-88 619,-16 777,-16 777,-88" style=""/>
+<text text-anchor="middle" x="698" y="-44.8" font-family="Times,serif" font-size="24.00" style="">...</text>
+</g>
+<!-- b0&#45;&gt;c0 -->
+<g id="edge3" class="edge" data-name="b0-&gt;c0">
+
+<path fill="none" stroke="black" stroke-width="0" d="M576.36,-52C590.18,-52 604.56,-52 618.38,-52" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- d0 -->
+<g id="node5" class="node" pointer-events="visible" data-name="d0">
+
+<polygon fill="lightgrey" stroke="black" points="978,-88 820,-88 820,-16 978,-16 978,-88" style=""/>
+<text text-anchor="middle" x="899" y="-59.2" font-family="Times,serif" font-size="24.00" style="">Observation</text>
+<text text-anchor="middle" x="899" y="-30.4" font-family="Times,serif" font-size="24.00" style="">T</text>
+</g>
+<!-- c0&#45;&gt;d0 -->
+<g id="edge4" class="edge" data-name="c0-&gt;d0">
+
+<path fill="none" stroke="black" stroke-width="0" d="M777.36,-52C791.18,-52 805.56,-52 819.38,-52" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- a1 -->
+<g id="node7" class="node" pointer-events="visible" data-name="a1">
+
+<polygon fill="lightgrey" stroke="black" points="375,-232 217,-232 217,-160 375,-160 375,-232" style=""/>
+<text text-anchor="middle" x="296" y="-188.8" font-family="Times,serif" font-size="24.00" style="">State 1</text>
+</g>
+<!-- ls&#45;&gt;a1 -->
+<g id="edge8" class="edge" data-name="ls-&gt;a1">
+
+<path fill="none" stroke="black" stroke-width="0" d="M174.36,-196C188.18,-196 202.56,-196 216.38,-196" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- lt -->
+<g id="node11" class="node" pointer-events="visible" data-name="lt">
+
+<polygon fill="white" stroke="white" points="174,-376 16,-376 16,-304 174,-304 174,-376" style=""/>
+</g>
+<!-- ls&#45;&gt;lt -->
+<g id="edge17" class="edge" data-name="ls-&gt;lt">
+
+<path fill="none" stroke="black" stroke-width="0" d="M95,-232.28C95,-256.13 95,-279.97 95,-303.81" style=""/>
+</g>
+<!-- a1&#45;&gt;a0 -->
+<g id="edge13" class="edge" data-name="a1-&gt;a0">
+
+<path fill="none" stroke="black" stroke-width="2" d="M296,-159.81C296,-138.95 296,-118.09 296,-97.22" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="298.63,-98.81 296,-91.31 293.38,-98.81 298.63,-98.81" style=""/>
+</g>
+<!-- b1 -->
+<g id="node8" class="node" pointer-events="visible" data-name="b1">
+
+<polygon fill="lightgrey" stroke="black" points="576,-232 418,-232 418,-160 576,-160 576,-232" style=""/>
+<text text-anchor="middle" x="497" y="-188.8" font-family="Times,serif" font-size="24.00" style="">State 2</text>
+</g>
+<!-- a1&#45;&gt;b1 -->
+<g id="edge5" class="edge" data-name="a1-&gt;b1">
+
+<path fill="none" stroke="black" stroke-width="2" d="M375.36,-196C386.35,-196 397.7,-196 408.83,-196" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="407.18,-198.63 414.68,-196 407.18,-193.38 407.18,-198.63" style=""/>
+</g>
+<!-- b1&#45;&gt;b0 -->
+<g id="edge14" class="edge" data-name="b1-&gt;b0">
+
+<path fill="none" stroke="black" stroke-width="2" d="M497,-159.81C497,-138.95 497,-118.09 497,-97.22" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="499.63,-98.81 497,-91.31 494.38,-98.81 499.63,-98.81" style=""/>
+</g>
+<!-- c1 -->
+<g id="node9" class="node" pointer-events="visible" data-name="c1">
+
+<polygon fill="white" stroke="white" points="777,-232 619,-232 619,-160 777,-160 777,-232" style=""/>
+<text text-anchor="middle" x="698" y="-188.8" font-family="Times,serif" font-size="24.00" style="">...</text>
+</g>
+<!-- b1&#45;&gt;c1 -->
+<g id="edge6" class="edge" data-name="b1-&gt;c1">
+
+<path fill="none" stroke="black" stroke-width="2" d="M576.36,-196C587.35,-196 598.7,-196 609.83,-196" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="608.18,-198.63 615.68,-196 608.18,-193.38 608.18,-198.63" style=""/>
+</g>
+<!-- d1 -->
+<g id="node10" class="node" pointer-events="visible" data-name="d1">
+
+<polygon fill="lightgrey" stroke="black" points="978,-232 820,-232 820,-160 978,-160 978,-232" style=""/>
+<text text-anchor="middle" x="899" y="-188.8" font-family="Times,serif" font-size="24.00" style="">State T</text>
+</g>
+<!-- c1&#45;&gt;d1 -->
+<g id="edge7" class="edge" data-name="c1-&gt;d1">
+
+<path fill="none" stroke="black" stroke-width="2" d="M777.36,-196C788.35,-196 799.7,-196 810.83,-196" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="809.18,-198.63 816.68,-196 809.18,-193.38 809.18,-198.63" style=""/>
+</g>
+<!-- d1&#45;&gt;d0 -->
+<g id="edge15" class="edge" data-name="d1-&gt;d0">
+
+<path fill="none" stroke="black" stroke-width="2" d="M899,-159.81C899,-138.95 899,-118.09 899,-97.22" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="901.63,-98.81 899,-91.31 896.38,-98.81 901.63,-98.81" style=""/>
+</g>
+<!-- t0 -->
+<g id="node12" class="node" pointer-events="visible" data-name="t0">
+
+<polygon fill="white" stroke="white" points="375,-376 217,-376 217,-304 375,-304 375,-376" style=""/>
+<text text-anchor="middle" x="296" y="-332.8" font-family="Times,serif" font-size="24.00" style="">Time 1</text>
+</g>
+<!-- lt&#45;&gt;t0 -->
+<g id="edge9" class="edge" data-name="lt-&gt;t0">
+
+<path fill="none" stroke="black" stroke-width="0" d="M174.36,-340C188.18,-340 202.56,-340 216.38,-340" style=""/>
+<polygon fill="black" stroke="black" stroke-width="0" points="nan,-nan nan,-nan nan,-nan nan,-nan" style=""/>
+</g>
+<!-- t1 -->
+<g id="node13" class="node" pointer-events="visible" data-name="t1">
+
+<polygon fill="white" stroke="white" points="576,-376 418,-376 418,-304 576,-304 576,-376" style=""/>
+<text text-anchor="middle" x="497" y="-332.8" font-family="Times,serif" font-size="24.00" style="">Time 2</text>
+</g>
+<!-- t0&#45;&gt;t1 -->
+<g id="edge10" class="edge" data-name="t0-&gt;t1">
+
+<path fill="none" stroke="black" stroke-width="2" d="M375.36,-340C386.35,-340 397.7,-340 408.83,-340" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="407.18,-342.63 414.68,-340 407.18,-337.38 407.18,-342.63" style=""/>
+</g>
+<!-- td -->
+<g id="node14" class="node" pointer-events="visible" data-name="td">
+
+<polygon fill="white" stroke="white" points="777,-376 619,-376 619,-304 777,-304 777,-376" style=""/>
+<text text-anchor="middle" x="698" y="-332.8" font-family="Times,serif" font-size="24.00" style="">...</text>
+</g>
+<!-- t1&#45;&gt;td -->
+<g id="edge11" class="edge" data-name="t1-&gt;td">
+
+<path fill="none" stroke="black" stroke-width="2" d="M576.36,-340C587.35,-340 598.7,-340 609.83,-340" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="608.18,-342.63 615.68,-340 608.18,-337.38 608.18,-342.63" style=""/>
+</g>
+<!-- tT -->
+<g id="node15" class="node" pointer-events="visible" data-name="tT">
+
+<polygon fill="white" stroke="white" points="978,-376 820,-376 820,-304 978,-304 978,-376" style=""/>
+<text text-anchor="middle" x="899" y="-332.8" font-family="Times,serif" font-size="24.00" style="">Time T</text>
+</g>
+<!-- td&#45;&gt;tT -->
+<g id="edge12" class="edge" data-name="td-&gt;tT">
+
+<path fill="none" stroke="black" stroke-width="2" d="M777.36,-340C788.35,-340 799.7,-340 810.83,-340" style=""/>
+<polygon fill="black" stroke="black" stroke-width="2" points="809.18,-342.63 816.68,-340 809.18,-337.38 809.18,-342.63" style=""/>
+</g>
+</g>
+</svg>
