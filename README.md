@@ -31,3 +31,8 @@ The notebook itself is found at the root of the directory under the name `data_i
 
 ## Data access
 * All data are simulated within the notebook, no external data is required. 
+
+## Citing this repo
+To cite this repository please use:
+
+> Wilde, J., Addy, J., Morrison, C., & Miller, D. (2026). Evaluating the added benefits of data integration using Bayesian model comparison tools (Version 1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.23159273
